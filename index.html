@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Blockchain-Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha256-u6BamZiW5tCemje2nrteKC2KoLIKX9lKPSpvCkOhamw=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="p-5">
+<form>
+    <div class="row">
+        <div class="col-10">
+            <textarea class="form-control" id="text" rows="8" onkeyup="update()">Hallo</textarea>
+        </div>
+        <div class="col-2">
+            <img src="images/potato.png" height="100" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-10">
+            <input class="form-control" id="hash" type="text" />
+        </div>
+        <div class="col-2">
+            <img src="images/hash.png" height="50" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-12">
+            <a class="btn btn-primary" href="javascript:defaultText()">Text</a>
+            <a class="btn btn-primary" href="javascript:plusone()">+1</a>
+            <a class="btn btn-primary" href="javascript:mine('00')">Mine (2)</a>
+            <a class="btn btn-primary" href="javascript:mine('0000')">Mine (4)</a>
+            <a class="btn btn-primary" href="javascript:mine('00000')">Mine (5)</a>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
