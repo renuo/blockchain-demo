@@ -1,4 +1,43 @@
 body {
-    background-image: url('images/background.jpg');
+    background-image: url('images/background.svg');
     background-size: cover;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: #26d79d;
+    border-radius: .25rem;
+    color: #fff;
+    font-weight: bold;
+    margin-right: .5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #1fb282;
+}
+
+.col-input {
+    flex-grow: 1;
+    padding-right: 1rem;
+}
+
+.col-image {
+    width: 100px;
+}
+
+.input {
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: large;
+    padding: 1rem;
+    width: 100%;
 }

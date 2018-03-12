@@ -31,7 +31,7 @@ function mine(newPrefix) {
 }
 
 var mineTenSteps = function () {
-  for (var i = 0; i < 1000; i++) {
+  for (var i = 0; i < 1237; i++) {
     if (mineInterval > 0) {
       mineStep();
     }
