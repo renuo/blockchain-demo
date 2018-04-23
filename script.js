@@ -63,9 +63,9 @@ function stopMine() {
 function defaultText() {
   const hashElement = $('#text');
   hashElement.val(
-      "Richi hat 10’000’000$ auf einem Konto der Vatikanbank – Franziskus\n" +
-      "Ich kaufe Kaffee für 10’000’000$ – Richi\n" +
-      "Ich kaufe Renuo-Aktien für 10’000’000$ – Richi"
+      "Samuel hat 10’000’000$ auf einem Konto der Vatikanbank – Franziskus\n" +
+      "Ich kaufe Kaffee für 10’000’000$ – Samuel\n" +
+      "Ich kaufe Schneider Schuhe AG-Aktien für 10’000’000$ – Samuel"
   );
   update();
 }
